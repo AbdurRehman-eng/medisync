@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "653552136805",
+    "firebase_url": "https://medisync-9cc3d-default-rtdb.firebaseio.com",
+    "project_id": "medisync-9cc3d",
+    "storage_bucket": "medisync-9cc3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653552136805:android:32a503d6d04560395e8c8c",
+        "android_client_info": {
+          "package_name": "com.example.layouts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653552136805-3cru4epr0ekms5asr6e1fevt0qa2ap70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.layouts",
+            "certificate_hash": "3223d3f6674ea201b3a0196a57ca735fbb90b8e3"
+          }
+        },
+        {
+          "client_id": "653552136805-i3m1nv59rn94ppal2ega29d8mb6hpbp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoD2x0eznH2GLQ9lIwSeLSdhCbxa24nNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653552136805-i3m1nv59rn94ppal2ega29d8mb6hpbp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainScreen"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-88dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="413dp"
+            android:layout_height="255dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/background1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/doc"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/group_12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dforum" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/adminpanel"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="75dp"
+            android:background="@drawable/group_16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/my"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="44dp"
+            android:background="@drawable/group_13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appoint" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/search"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/group_10__1_"
+            app:layout_constraintEnd_toStartOf="@+id/dforum"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dforum"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/group_11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appoint"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="44dp"
+            android:background="@drawable/group_12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/dforum"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="MEDISYNC"
+            android:textColor="#F6F5F5"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="416dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/background1" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="330dp"
+            android:layout_height="172dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView8"
+            app:srcCompat="@drawable/bg2" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/banner_view_pager"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="355dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="220dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/group_9" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="8dp"
+            android:text="Search Medicine"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toStartOf="@+id/textView12"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Discussion Forum"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dforum" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="34dp"
+            android:text="Book Appointment"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/appoint" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="34dp"
+            android:text="My \nAppointments"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/my" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add Doctor"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/doc" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="8dp"
+            android:text="Add Medicine"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toStartOf="@+id/textView15"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/adminpanel" />
+
+        <TextView
+            android:id="@+id/nameshow"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="253dp"
+            android:text="TextView"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.961"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.976" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
